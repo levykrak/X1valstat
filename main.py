@@ -15,7 +15,7 @@ x,y = np.loadtxt('data.txt', delimiter=' ', unpack=True)
 
 fig, ax = plt.subplots()
 #ax.hist2d(x, y, bins=(np.arange(-3, 3, 0.1), np.arange(-3, 3, 0.1)))
-ax.hist2d(x, y, bins=(np.arange(0, 200, 2), np.arange(0, 30, 0.5)))
+ax.hist2d(x, y, bins=(np.arange(0, 300, 2), np.arange(0, 30, 0.5)))
 
 #plt.scatter(x,y)  #generowanie punktow
 
